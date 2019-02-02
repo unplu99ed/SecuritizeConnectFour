@@ -1,0 +1,27 @@
+{
+  "name": "autodeskassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "tests": "node ./node_modules/mocha/bin/mocha --recursive ./src/tests "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unplu99ed/AutodeskAssignment.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/unplu99ed/AutodeskAssignment/issues"
+  },
+  "homepage": "https://github.com/unplu99ed/AutodeskAssignment#readme",
+  "dependencies": {
+    "circular-array": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {}
+}
