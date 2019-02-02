@@ -31,16 +31,12 @@ const checkConnectForDirection = (board, col, row, direction, config) => {
     && neededValue === board[currentLocation.col][currentLocation.row]) {
 
     currentLocation.col += direction.col;
-    currentLocation.row += direction.row;
+    currentLocation.row += direction.row; 
     counter++
   }
 
   return counter === 4;
 }
-
-// const checkGameEnded = (board) => {
-//   board.forEach(row =>)
-// }
 
 const isItTheUserTurn = (game, userID) => {
   return game.players[game.currentPlayer] === userID;
